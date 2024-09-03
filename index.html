@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BBC clone</title>
+  <script src="https://kit.fontawesome.com/83b055e62b.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="hihihi">
+    <header>
+
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+        <input type="text" id="searchInput" class="search-input" placeholder="Search...">
+        <button class="searchBtn">Search</button>
+      </div>
+      <div class="logo">
+        <a href=""><img src="/BBC logo.png" alt="BBC"></a>
+      </div>
+      <div class="login">
+        <a href="register.html"><button class="register">Register</button></a>
+        <a href="SignIn.html"><button class="signIn">Sign In</button></a>
+      </div>
+
+    </header>
+    <hr>
+
+    <!-- header ends here  -->
+
+
+
+    <!-- navbar starts here  -->
+
+    <nav>
+      <div class="navbar">
+        <ul id="navbar">
+          <li id="World" class="active"><a href="#">Home</a></li>
+          <li id="India" class="active"><a href="#">News</a></li>
+          <li id="Sport" class="active"><a href="#">Sport</a></li>
+          <li id="Business" class="active"><a href="#">Business</a></li>
+          <li id="Innovation" class="active"><a href="#">Innovation</a></li>
+          <li id="Culture" class="active"><a href="#">Culture</a></li>
+          <li id="Travel" class="active"><a href="#">Travel</a></li>
+          <li id="Earth" class="active"><a href="#">Earth</a></li>
+        </ul>
+      </div>
+    </nav>
+    <hr>
+  </div>
+  <!-- navbar ends here  -->
+
+
+  <!-- hero section stars here  -->
+  <section class="firstSection"></section>
+
+  <template id="news-card-template">
+    <div class="overall">
+      <div class="middle1">
+        <img src="/middle1.avif" alt="Image" class="newsImage">
+        <h2 class="heading">Top Democrats throw support behind Harris after Biden exits race</h2>
+        <p class="description">Vice-President Kamala Harris, who President Joe Biden has endorsed, vows to
+          "earn and win" her
+          party's presidential nomination.</p>
+        <div class="span">
+          <span class="time">5 hrs ago</span>
+          <span class="region">US & Canada</span>
+        </div>
+
+      </div>
+    </div>
+  </template>
+
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>

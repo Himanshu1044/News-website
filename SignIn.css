@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: borderbox;
+    font-family: sans-serif;
+}
+
+body {
+    padding-top: 100px;
+    letter-spacing: 1.1px;
+    background-color: black;
+    color: white;
+}
+
+.registercontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mainregister {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin: 10px 0px;
+}
+
+input {
+    margin: 10px 0px;
+    width: 100%;
+    background-color: black;
+    line-height: 15px;
+    color: white;
+    font-size: 20px;
+    padding: 5px 5px;
+    outline: none;
+    border: none;
+    font-weight: 550;
+    border-bottom: 2px solid white;
+}
+
+button {
+    padding: 15px 65px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button:hover {
+    scale: 1.1;
+    background-color: rgb(71, 86, 250);
+}
+
+.mainregister a {
+    color: blue;
+    line-height: 10px;
+    text-decoration: underline;
+}
+
+img {
+    background-color: white;
+    color: black;
+    width: 170px;
+    margin: 10px 0px;
+}
+
+.moreabout {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
+
+.registerEntries {
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    letter-spacing: 0;
+    font-size: 14px;
+    padding: 10px;
+}
+
+p a {
+    padding: 0;
+}
+
+.registerRightimg {
+    margin-top: -400px;
+    margin-right: -200px;
+}
+
+.fa-x {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 50px;
+}
